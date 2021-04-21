@@ -93,7 +93,7 @@ module.exports = {
             .setDescription(`** <:Ba:827947991632969749> Sent from <#${message.channel.id}>**`))
             message.author.send(helpEmbed)
             message.channel.send( new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**👍 ${message.author} Check your \`direct messages\` for a list of Commands!**`)
+            .setDescription(`** <:Ba:827947991632969749> ${message.author} Check your \`direct messages\` for a list of Commands!**`)
             );
            
         break;
