@@ -14,8 +14,8 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 
 //this fires when the BOT STARTS DO NOT TOUCH
 client.on(`ready`, () => {	
-client.user.setActivity(`${PREFIX}help fix up | ${client.guilds.cache.size} Server`, { type: "STREAMING",
-      url: "https://www.twitch.tv/nocopyrightsounds"});
+client.user.setActivity(`${PREFIX}help ${client.guilds.cache.size} Server`, { type: "PLYING",
+      url: ""});
   
    ///////////////////////////////
     ////////////IFCHEMPTY//////////
