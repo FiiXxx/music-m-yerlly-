@@ -14,8 +14,8 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 
 //this fires when the BOT STARTS DO NOT TOUCH
 client.on(`ready`, () => {	
-client.user.setActivity(`${PREFIX}help ${client.guilds.cache.size} Server | By monty`, { type: "PLYING",
-      url: ""});
+client.user.setActivity(`${PREFIX}help | Server ${client.guilds.cache.size}`, { type: "WATCHING" });
+});
   
    ///////////////////////////////
     ////////////IFCHEMPTY//////////
