@@ -15,8 +15,8 @@ module.exports = {
  
     let helpEmbed = new MessageEmbed()
       .setTitle("MBWF-v1 Help")
-      .setDescription(`**Version:** \`v2.8\` \n**PREFIX:** \`${PREFIX}\``)
-      .setFooter( client.user.username +`Type: ${PREFIX}help <Command>  for more information!`)
+      .setDescription(`**Version:** \`v2.8\` \n**PREFIX:** \`${+}\``)
+      .setFooter( client.user.username +`Type: ${+}help <Command>  for more information!`)
       .setColor("#c219d8");
 
       let ifargstruedothis = -1;
